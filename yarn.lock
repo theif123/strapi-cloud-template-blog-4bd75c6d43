@@ -3448,7 +3448,7 @@ axios@1.6.0:
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
-axios@^1.2.2:
+"axios@>=0.21.2 <1.2.0 || >=1.2.1", axios@^1.2.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-1.7.2.tgz#b625db8a7051fbea61c35a3cbb3a1daa7b9c7621"
   integrity sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==
@@ -9642,6 +9642,14 @@ strapi-plugin-translate@^1.2.4:
     bottleneck "^2.19.5"
     jsdom "^21.1.1"
     showdown "^2.1.0"
+
+strapi-provider-translate-libretranslate@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/strapi-provider-translate-libretranslate/-/strapi-provider-translate-libretranslate-1.0.11.tgz#7252fa334f66cbdfa4831c60d6dbd25150a21a91"
+  integrity sha512-2NP1WwCgcBc8Va+4Gx27MoZne7OVJyY3RnMTuzFxdEv+0rtes42FqlPhMLJNHxabmSQdig3KNFz/aL56LgcZkw==
+  dependencies:
+    axios ">=0.21.2 <1.2.0 || >=1.2.1"
+    bottleneck "^2.19.5"
 
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"

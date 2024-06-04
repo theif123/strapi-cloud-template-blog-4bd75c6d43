@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * blog router
+ * map-blog router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::blog.blog');
+module.exports = createCoreRouter('api::map-blog.map-blog');
